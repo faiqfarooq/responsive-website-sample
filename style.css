@@ -1,0 +1,428 @@
+*{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: white;
+}
+
+
+.container
+{
+	position: relative;
+	background-color: #3e3e3e;
+	border: 1px solid black;
+	width: 100%;
+	height: 130px;
+	clear: both;
+	overflow:visible;
+	display: block;
+}
+.logo
+{
+	position: absolute;
+	padding: none;
+	margin-left: 5%;
+	height:128px ;
+	width: 128px;
+}
+.resname {
+	position: fixed;
+	color: white;
+	font-size: 28px;
+	margin-left: 17%;
+	margin-top: 60px;
+	text-shadow: 5px 5px 5px white;
+
+}
+nav{
+	float: right;
+	padding: 10px 0 0 0 ;
+}
+#menubar:hover{
+	color: #3e3e3e;
+	text-decoration: blink;
+	font-size: 20px;
+	background-color: white;
+	border: 2px solid white;
+	margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+	box-shadow: 7px 7px 7px  grey;
+    
+}
+#menubar{
+	color: white;
+	text-decoration: blink;
+	font-size: 20px;
+	background-color: #3e3e3e;
+	border: 2px solid white;
+	margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+
+}
+.dropdown {
+    display: inline-block;
+    position: absolute;
+	height:20px ;
+	width: 20px;
+	margin-left: 60%;
+	margin-top: 3%;
+	color: #3e3e3e;
+	  cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-right: 100px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.mobile1
+{
+	position: absolute;
+	height:40px ;
+	width: 40px;
+	margin-left: 90%;
+	margin-top: 3%;
+	color: #3e3e3e;
+	opacity: 0.0;
+}
+.he{
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #3e3e3e;
+	border: 2px solid #3e3e3e;
+	text-align: center;
+	margin: 0 20% 0 20%;
+
+}
+.she{
+	font-size: 20px;
+	padding: 0 22% 0 22%;
+	font-weight: none;
+}
+
+#menu ul{
+	position:absolute;
+	top: 50px;
+	right: 20%;	
+
+}
+
+.mobile
+{
+	position: absolute;
+	height:40px ;
+	width: 40px;
+	margin-left: 90%;
+	margin-top: 3%;
+	color: #3e3e3e;
+	opacity: 0.0;
+}
+
+h2{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+
+}
+h1
+{
+	position: relative;
+	font-size: 22px;
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+.column
+{
+	background-color: #3e3e3e;
+	border: 7px solid white;
+	padding: 0 10px 0 10px;
+	position: relative;
+	flex: 25%;
+	height: 10%;
+	overflow: hidden;
+	float: left;
+
+}
+.c-pic
+{
+	height: 250px;
+	width: 100%;
+	padding: 0 5% 0 5%;
+	position: relative;
+}
+.b-pic
+{
+	height: 250px;
+	width: 100%;
+	padding: 0 5% 0 5%;
+	position: relative;
+}
+.f-pic
+{
+	height: 100%;
+	width: 100%;
+	padding: 0 5% 0 5%;
+	position: relative;
+}
+.mapping{
+    height: 250px;
+    width: 410px;
+	
+	position: relative;
+}
+.nr{
+	text-shadow: 10px 10px 10px #3e3e3e;
+}
+.call{
+	margin-top: 59px;
+	color: red;
+	background-color: white;
+	border: 1px solid white;
+	font-size: 25px;
+	font-style: none;
+	text-decoration: blink;
+	font-weight: bold;
+}
+.color{
+color: white;
+font-size: 18px;
+padding: 5%;
+margin: 2px;
+}
+.chicken-h
+{
+	background-color: #F5B7B1;
+	border:2px solid black ;
+	position: relative;
+	height:15%;
+	width: 24%;
+	left: 76.5%;
+}
+.beef-h
+{
+	background-color: #E74C3C;
+	border:2px solid black ;
+	position: relative;
+	height:15%;
+	width: 24%;
+	left: 76.5%;
+}
+.fish-h
+{
+	background-color: #F9E79F;
+	border:2px solid black ;
+	position: relative;
+	height:15%;
+	width: 24%;
+	left: 76.5%;
+}
+.row
+{ 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-row
+{ 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-container{
+	background-color: #3e3e3e;
+	margin-top: 8%;
+}
+.footer-column{
+	background-color: #3e3e3e;
+	border: 20px dashed #3e3e3e;
+	position: relative;
+	flex: 25%;
+	width: 33%;
+	height: 20%;
+	overflow: hidden;
+	float: left;
+}
+.footer-time-c{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px grey;
+	padding: 12px;
+
+}
+.footer-time-h{
+	background-color:white ;
+	border: 2px solid white;
+	padding: auto;
+	margin: auto;
+}
+.footer-de-c{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px grey;
+	padding: 12px;
+
+}
+.footer-de-h{
+	background-color:white ;
+	border: 2px solid white;
+	padding: auto;
+	margin: auto;
+}
+.footer-ad-c{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px grey;
+	padding: 12px;
+}
+.footer-ad-h{
+	background-color:white ;
+	border: 2px solid white;
+	padding: auto;
+	margin: auto;
+}
+
+.copy{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px)
+{
+	.resname
+	{
+		font-size: 0;
+	}
+	.column
+	{
+		flex: 50%;
+	}
+	.footer-column{
+		flex: 50%;}
+}
+@media screen and (max-width: 720px)
+{
+	.logo{
+		display: none;
+	}
+	.mobile
+   {
+	position: absolute;
+	height:40px ;
+	width: 40px;
+	margin-left: 90%;
+	margin-top: 8%;
+	opacity: 1;
+    }
+    .mobile:hover
+    {
+    position: absolute;
+	height:40px ;
+	width: 40px;
+	margin-left: 90%;
+	margin-top: 8%;
+	opacity: 1;
+	border:2px solid white ;
+	box-shadow: 10px 10px 10px grey;
+    }
+    #menu
+    {
+    	display: none;
+    }
+    .dropdown {
+    display: inline-block;
+    position: absolute;
+	height:20px ;
+	width: 20px;
+	margin-left: 80%;
+	margin-top: 3%;
+	color: #3e3e3e;
+	  cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+     list-style-type: none;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+     list-style-type: none;
+}
+
+.dropdown-content a:hover {
+	margin-right: 400px;
+	background-color: #f1f1f1;
+	 list-style-type: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+     list-style-type: none;
+}
+.mobile1
+{
+	position: absolute;
+	height:40px ;
+	width: 40px;
+	margin-left: 70%;
+	margin-top: 3%;
+	color: #3e3e3e;
+	opacity: 1;
+}
+	.row
+	{
+		flex-direction:column;
+	}
+	.footer-row{
+		flex-direction: column;
+	}
+	.footer-column{
+	background-color: #3e3e3e;
+	border: 20px dashed #3e3e3e;
+	position: relative;
+	flex: 25%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+}
+	}
+
